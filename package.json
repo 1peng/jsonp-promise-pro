@@ -1,0 +1,17 @@
+{
+  "name": "jsonp-promise-pro",
+  "version": "1.0.4",
+  "description": "a jsonp promise module, we called be jsonp-promise-pro",
+  "main": "jsonp-promise.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "",
+  "keywords": [
+    "jsonp",
+    "jsonp-promise",
+    "jsonp-promise-pro"
+  ],
+  "author": "wangyipeng",
+  "license": "MIT"
+}
