@@ -26,10 +26,11 @@ var jsonp = function(url, options) {
     var timer;
     var cleanup;
     var promise;
+    var callback = options.callback || '';
     var noop = function() {};
 
     // Generate a unique id for the request.
-    var id = prefix + (count++);
+    var id = callback ? callback : prefix + (count++);
 
     cleanup = function() {
         // Remove the script tag.
