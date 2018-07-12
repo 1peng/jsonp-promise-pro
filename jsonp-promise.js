@@ -30,7 +30,7 @@ var jsonp = function(url, options) {
     var noop = function() {};
 
     // Generate a unique id for the request.
-    var id = callback ? callback : prefix + (count++);
+    var id = callback ? callback : (prefix + (count++));
 
     cleanup = function() {
         // Remove the script tag.
